@@ -24,7 +24,7 @@
 		<sonar.host.url>http://127.0.1.1:9000</sonar.host.url>
 	        <sonar.login>aa992a2a50add984c713c240e59f549a18502b72</sonar.login>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>abc_123</sonar.password> 
+		<sonar.password>admin</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
