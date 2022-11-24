@@ -1,54 +1,184 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.net.*" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
-</head>
-</head>
-<body>
-<h1 align="center">Welcome to Mithun Software Solutions. Bengaluru,Karnataka </h1>
-<h1 align="center"> Mithun Software Solutions- Very Good Training center for DevOps with AWS in Maratha Halli Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
-<hr>
-<br>
-	<h1><h3> Server Side IP Address </h3><br>
+    <head>
+        <title>Login</title>
+        <style>
+            
+            body {
+                position: relative;
+                width: 100%;
+                background-image:  url(https://t4.ftcdn.net/jpg/02/54/67/69/240_F_254676947_SHegKGWyQqlgaDBg21PEg3twBHEP2qsL.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-color: #7a91f5;
+                background-blend-mode: darken;
+                min-height: 100vh;
+                overflow: hidden;
+            }
+            
+            table {
+                width: 650px;
+                height: 360px; 
+                margin: 1px;
+                padding-right: 10rem; 
+                border-radius: 5px;
+            }
+            div.a {
+                margin: 50px;
+                padding: 5px;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: verdana;
+                font-size: 2rem;
+                font-weight: 700;
+                color: #f1eff7;
+                text-shadow: 1px 1px 1px #3307fa,
+                             1px 2px 1px #3307fa,
+                             1px 3px 1px #3307fa,
+                             1px 4px 1px #3307fa,
+                             1px 5px 1px #3307fa,
+                             1px 6px 1px #3307fa,
+                             1px 7px 1px #3307fa,
+                         1px 10px 6px rgba(245, 247, 248, 0.4),
+                         1px 15px 10px rgba(245, 247, 248, 0.4),
+                         1px 15px 20px rgba(245, 247, 248, 0.4),
+                         1px 15px 30px rgba(245, 247, 248, 0.4);
+            }
+            input[type="text" i] {
+                font-style: oblique;
+                border-color: #f1eff7;
+                max-width: 380px;
+                width: 100%;
+                height: 40px;
+                background-color: rgb(129, 243, 247);
+                margin: 10px 0;
+                border-radius: 55px;
+                display: grid;
+                grid-template-columns: 15% 85%;
+                padding: 0 50px;
+                position: relative;
+            }
+            input[type="password" i] {
+                font-style: oblique;
+                border-color: #faf7f4;
+                max-width: 380px;
+                width: 100%;
+                height: 40px;
+                background-color: rgb(128, 226, 250);
+                margin: 5px 0;
+                border-radius: 55px;
+                display: grid;
+                grid-template-columns: 30% 70%;
+                padding: 0 50px;
+                position: relative;
+            }
+            input[type="submit" i] {
+                max-width: 380px;
+                font-weight: bolder;
+                color: #faf7f4;
+                border-color: #f1eff7;
+                font-size: medium;
+                width: 50%;
+                height: 30px;
+                background-color: rgb(25, 9, 248);
+                margin: 10px 0;
+                border-radius: 55px;
+                display: grid;
+                grid-template-columns: 15% 85%;
+                padding: 0 0.4rem;
+                position: relative;
+            }
+            input[type="submit" i]:hover {
+                background-color: rgb(168, 9, 241);
+                transform: scale(1.03);
+            }
+            input[type="submit" i]:active {
+                transform: translateY(3px) scale(.97); 
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <img src="https://www.hfcl.com/images/HFCL_White.png" width="120" hight="200" align="left" />
+       
+        <div class="a">
+           
+          
+            Lab Slot Booking
+          
+        </div>
+        
+         <br/><br/><br/><br/>
+        <div align="center">
+            <form acton="/" method="post">
+                <table align="right">
+                     <tr>
+                        <div class="b">
+                         <td>
+                            <font color="white" style="font-size: 20;"> <b>Username(Email)</b>
+                          </font>
+                             
+                         </td>
+                         
+                
+                        
+                        <td>
+                            
+                         <input type="text" placeholder="Enter Username" name="txtusername" required>
+                        
+                        </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font color="white" style="font-size: 20;"> <b>Password</b>
+                         </font>
+                        </td>
+                        <td>
+                            <input type="password" placeholder="Enter Password" name="txtpassword" required>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                       <td colspan=""></td>
+                       <td>
+                             <input type="submit" value="Login"/>
+                             
+                        </td>
+                      
+                        
+                    </tr>
+                    <tr>
+                        <td colspan=""></td>
+                        <td>
+                            <a href="/Loginwithadm&RD" style="color:#faf7f4; font-weight: bold; font-style: italic; ">Login with Admin/R&D</a>
+                              
+                         </td>
+                       
+                         
+                     </tr>
+                     <tr>
+                        <td colspan="2">&nbsp;</td>
+                         
+                     </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <a href="/SignUp" style="color:rgb(61, 11, 243); font-weight: bolder; width: 50%; height: 30px; background-color: rgb(248, 245, 245); text-decoration: none; padding:1px 0.8rem; border-color: #0d0d0e; margin: 10px 0; border-radius: 55px; ">Sign Up </a>
 
-<% 
-String ip = "";
-InetAddress inetAddress = InetAddress.getLocalHost();
-ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName()); 
-%>
-<br>
-<%out.println("Server IP Address :: "+ip);%>
-</h1>
-<br>
-<h1><h3> Client Side IP Address </h3><br>
-<%out.print( "Client IP Address :: " + request.getRemoteAddr() ); %><br>
-<%out.print( "Client Name Host :: "+ request.getRemoteHost() );%><br></h1>
-<hr>
-<div style="text-align: center;">
-	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
-	</span>
-	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
-		Bangalore,
-		+91-9980923226
-		devopstrainingblr@gmail.com
-		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
-	</span>
-</div>
-<hr>
-	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
-<hr>
-<hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2022 by <a href="http://mithuntechnologies.com/">Mithun Technologies,Bengaluru</a> </small></p>
 
-</body>
+                            
+                        </td>
+
+                    </tr>
+        
+
+
+                </table>
+            </form>
+            
+        </div>
+       
+    </body>
 </html>
