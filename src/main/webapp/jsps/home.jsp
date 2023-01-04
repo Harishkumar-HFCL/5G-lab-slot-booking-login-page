@@ -208,7 +208,7 @@
             <form method="post" action="/bookSlot">
                 <table>
                     <tr>
-                      <td colspan="2" class="tbl_header">Book a Slot</td>
+                      <td colspan="2" class="tbl_header">Book a Page</td>
                         
                     </tr>
 
